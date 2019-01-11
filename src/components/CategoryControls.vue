@@ -1,10 +1,8 @@
 <template>
 	<div class="container-fluid">
 		<div class="row my-2" v-for="c in categories" :key="c">
-			<button class="btn btn-block"
-				v-on:click="setCurrentCategory(c)"
-				v-bind:class="c == currentCategory 
-						? 'btn-primary' : 'btn-secondary'">
+			<button class="btn btn-block"	@click="setCurrentCategory(c)" 
+				:class="c == currentCategory ? 'btn-primary' : 'btn-secondary'">
 				{{ c }}
 			</button>
 		</div>
