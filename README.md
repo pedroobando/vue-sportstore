@@ -1,29 +1,37 @@
 # Vue-Sportstore - frontend
 
-## Project setup
-```
-npm install
-```
+### Proyecto Base
+Proyecto Vuejs un carrito de compras, desde Cero - Elaborado por Adam Freeman, de su libro Pro VueJs2.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+El video de la explicacion y elaboracion del proyecto, lo pueden encontrar [Aqui en Youtube](https://www.youtube.com/watch?v=TqC3e8nBycg&t=)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Proposito
+    Elaboracion de -,-.
+    Usando nodejs, -.
+    
 
-### Run your tests
-```
-npm run test
-```
+<p align="center">
+    <h3>IMAGEN DEL PROYECTO</h3>  
+</p>
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Desarollado bajo
+    node.js (v10.15.0)
+    vuejs2
+    axios
+    bootstrap
+    
+
+### Base de datos
+    --- 
+    Se uso un contenedor docker, donde fue descargado el mongo para su uso.
+
+### Modo de Ejecucion.
+    1.- npm run json  : Esto ejecuta un servidor apirest con datos estaticos.
+    2.- npm run serve : Ejecuta simplimente la aplicacion frontend.
+
+### Puertos TCP.
+    Desarrollo: 8080
+ 
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
