@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "json": "json-server src/data.js -p 3500 -m src/authMiddleware.js"
+    "json": "json-server src/data.js -p 3500 -m src/authMiddleware.js",
+    "dev":  "node_modules/.bin/concurrently --kill-other \"npm run json\" \"npm run serve\""
   },
   "dependencies": {
     "axios": "^0.18.0",
