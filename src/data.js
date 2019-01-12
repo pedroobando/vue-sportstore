@@ -17,6 +17,10 @@ var data = [
 	{ id: 14, name: "Guante 30", category: "Sport", description: "Gold-plated, diamond-studded King", price: 1241 },
 	{ id: 15, name: "Bate", category: "Sport", description: "Gold-plated, diamond-studded King", price: 1241 },
 	{ id: 16, name: "Teclado", category: "Watersports", description: "Gold-plated, diamond-studded King", price: 940 },
+	{ id: 17, name: "Bandera Magallanes", category: "Soccer",description: "Give your playing field a professional touch", 
+	price: 34.95 },
+	{ id: 18, name: "Damas Chinas", category: "Chess",description: "Give your playing field a professional touch", 
+	price: 34.95 },
 
 ];
 
