@@ -1,4 +1,4 @@
-# vue-sportstore
+# Vue-Sportstore - frontend
 
 ## Project setup
 ```
