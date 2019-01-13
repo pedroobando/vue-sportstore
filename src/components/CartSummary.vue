@@ -1,7 +1,7 @@
 <template>
   <div class="float-right">
     <small>
-      <router-link to="/cart" class="btn btn-sm bg-dark text-white" :disabled="itemCount == 0">
+      <router-link to="/cart" class="btn btn-sm bg-dark text-white" :class="{disabled: itemCount == 0}">
         Your cart:
         <span v-if="itemCount > 0">
           {{ itemCount }} item(s) {{ totalPrice | currency }}

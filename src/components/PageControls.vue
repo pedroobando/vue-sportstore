@@ -19,9 +19,9 @@
       </span>
       <span class="mx-1">
         <button v-for="i in pageNumbers" v-bind:key="i"
-          class="btn btn-secondary mx-1"
-          v-bind:class="{ 'btn-primary': i == currentPage }"
-          v-on:click="setCurrentPage(i)">{{ i }}</button>
+          class="btn mx-1"
+          :class="[i == currentPage ? 'btn-primary': 'btn-secondary']"
+          @click="setCurrentPage(i)">{{ i }}</button>
       </span>
       <span v-if="currentPage <= pageCount - 4">
         <span class="h4">...</span>
