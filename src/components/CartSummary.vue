@@ -1,5 +1,5 @@
 <template>
-  <div class="float-right">
+  <div class="float-right m-1">
     <small>
       <router-link to="/cart" class="btn btn-sm bg-dark text-white" :class="{disabled: itemCount == 0}">
         Your cart:
@@ -7,7 +7,7 @@
           {{ itemCount }} item(s) {{ totalPrice | currency }}
         </span>
         <span v-else>
-          (vacio)
+          {{ totalPrice | currency }}
         </span>    
         <i class="fa fa-shopping-cart"></i>
       </router-link>      
